@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: @import url('https://fonts.google.com/specimen/Tangerine');
+  font-style: italic;
+  background-image: url('sky.jpg');
+  background-size: cover;
+  color: white;
+}
+.ubicacion {
+  text-align: center;
+}
+
+.icono-ubicacion {
+  width: 100px; /* Ajusta el tamaño del icono según sea necesario */
+  height: 100px; /* Ajusta el tamaño del icono según sea necesario */
+  background-image: url('https://img.freepik.com/vector-gratis/ubicacion_53876-25530.jpg?w=740&t=st=1714482517~exp=1714483117~hmac=49fccb029a31320feaeaf2bbe9b5d8abf34030fb0cc837197f00a7f87bd9447c'); /* Cambia 'icono_ubicacion.png' por la ruta de tu icono */
+  background-size: cover;
+  animation: moverIcono 2s infinite alternate; /* Define la animación */
+}
+
+@keyframes moverIcono {
+  from {
+    transform: translateY(-2px); /* Ajusta la distancia de movimiento hacia arriba */
+  }
+  to {
+    transform: translateY(2px); /* Ajusta la distancia de movimiento hacia abajo */
+  }
+}

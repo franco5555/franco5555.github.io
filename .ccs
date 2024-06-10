@@ -1,0 +1,17 @@
+.icono-ubicacion {
+    width: 50px; /* ajusta el tamaño del icono según tus necesidades */
+    height: 50px; /* ajusta el tamaño del icono según tus necesidades */
+    background-image: url('ihttps://www.google.com/imgres?q=icono%20ubicacion&imgurl=https%3A%2F%2Fpng.pngtree.com%2Fpng-clipart%2F20230601%2Foriginal%2Fpngtree-pin-map-location-icon-logo-symbol-design-transparent-background-free-png-image_9175707.png&imgrefurl=https%3A%2F%2Fes.pngtree.com%2Ffreepng%2Fpin-map-location-icon-logo-symbol-design-transparent-background-free_9175707.html&docid=_UXAJuPQK_n0SM&tbnid=qVwXNIjy_fjKYM&vet=12ahUKEwj6oI-W_umFAxVIpZUCHda2DIMQM3oECFIQAA..i&w=1200&h=1200&hcb=2&ved=2ahUKEwj6oI-W_umFAxVIpZUCHda2DIMQM3oECFIQAA'); /* cambia 'icono_ubicacion.png' por la URL de tu icono */
+    background-size: cover;
+    animation: moverIcono 2s infinite alternate; /* ajusta la animación según tus necesidades */
+    margin: 0 auto; /* centra el icono horizontalmente */
+}
+
+@keyframes moverIcono {
+    from {
+        transform: translateY(-5px); /* ajusta la distancia de movimiento hacia arriba */
+    }
+    to {
+        transform: translateY(5px); /* ajusta la distancia de movimiento hacia abajo */
+    }
+}
